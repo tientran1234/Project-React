@@ -1,0 +1,92 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Introduction to Basic JavaScript Programming",
+            "content": "Content of the article on basic JavaScript programming...",
+            "topic": "Programming",
+            "author": "Vu Dinh Bao",
+            "date": "2023-01-15"
+        },
+        {
+            "id": 2,
+            "title": "Building Web Applications with React",
+            "content": "Content about building web applications with React...",
+            "topic": "Front-end Development",
+            "author": "Nguyen Phi Khanh",
+            "date": "2023-02-10"
+        },
+        {
+            "id": 3,
+            "title": "Data Analysis with Python",
+            "content": "Content of the article on data analysis using Python...",
+            "topic": "Data Science",
+            "author": "Hoang Cao Minh",
+            "date": "2023-03-20"
+        },
+        {
+            "id": 4,
+            "title": "Creating Mobile Apps with Flutter",
+            "content": "Guide on creating mobile apps using Flutter...",
+            "topic": "Mobile App Development",
+            "author": "Le Hong Duc",
+            "date": "2023-04-12"
+        },
+        {
+            "id": 5,
+            "title": "Effective User Interface Design",
+            "content": "Article about user interface design...",
+            "topic": "UI/UX Design",
+            "author": "Pham Thi Lan",
+            "date": "2023-05-05"
+        },
+        {
+            "id": 6,
+            "title": "Game Development with Unity",
+            "content": "Guide on game development using Unity...",
+            "topic": "Game Development",
+            "author": "Nguyen Dinh Hoang",
+            "date": "2023-06-18"
+        },
+        {
+            "id": 7,
+            "title": "Project Management in Software Engineering",
+            "content": "Content about project management in software engineering...",
+            "topic": "Software Engineering",
+            "author": "Truong Van Binh",
+            "date": "2023-07-22"
+        },
+        {
+            "id": 8,
+            "title": "Exploring Artificial Intelligence",
+            "content": "Article about artificial intelligence and its applications...",
+            "topic": "Artificial Intelligence",
+            "author": "Vu Thi Huong",
+            "date": "2023-08-15"
+        },
+        {
+            "id": 9,
+            "title": "Secure Programming Techniques",
+            "content": "Guide on secure programming techniques...",
+            "topic": "Cybersecurity",
+            "author": "Dang Minh Tri",
+            "date": "2023-09-30"
+        },
+        {
+            "id": 10,
+            "title": "HAHA",
+            "content": "HAHA",
+            "topic": "HAHA",
+            "author": "HAHA",
+            "date": "2023-12-30"
+        },
+        {
+            "id": 11,
+            "title": "hoho",
+            "content": "hihi",
+            "topic": "hihi",
+            "author": "hihi",
+            "date": "2023-12-30"
+        }
+    ]
+}
