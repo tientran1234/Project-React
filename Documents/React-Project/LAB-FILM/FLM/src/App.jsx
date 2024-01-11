@@ -30,7 +30,8 @@ function App() {
 
 handleSetFilm(albumData);
 console.log(listFilm);
-const user=JSON.parse(localStorage.getItem("name"));
+// const user=JSON.parse(localStorage.getItem("name"));
+const user ="haha";
 
   return (
     <>

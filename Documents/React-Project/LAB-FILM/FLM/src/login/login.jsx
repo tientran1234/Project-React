@@ -24,10 +24,9 @@ const navigate =useNavigate();
 
             const res = await axios.post("https://reqres.in/api/login", requestData);
             if(res.status==200){
-                
-                const decode =jwtDecode(res.data.token)
-                console.log(decode);
-// navigate("/dashboard")
+               
+              
+            navigate("/dashboard")
             }
            
         } catch (error) {

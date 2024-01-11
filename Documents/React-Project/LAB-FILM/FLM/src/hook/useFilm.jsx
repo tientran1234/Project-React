@@ -5,7 +5,6 @@ import {
   setFilm,
   updateDay,
 } from "../redux/slices/film.jsx"; // Import cả action updateShoppingCart
-
 const useFilm = () => {
   const dispatch = useDispatch();
   const listFilm = useSelector((state) =>state.film);

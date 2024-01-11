@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { useParams } from 'react-router-dom'
 import Header from '../home/header';
 import Footer from '../home/\bfooter';
@@ -6,13 +6,9 @@ import useFilm from '../../hook/useFilm';
 
 function Detail() {
     const {listFilm}=useFilm();
+    console.log(listFilm);
     const userName = useParams();
-  useEffect(() => {
-    
-    return () => {
-        cleanup
-    };
-  }, [input]);
+  console.log(userName);
     const filmLocal = listFilm.find(obj => {
         return obj.id == userName.id;
     });
