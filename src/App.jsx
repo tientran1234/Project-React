@@ -11,7 +11,8 @@ import useFilm from './hook/useFilm'
 import { getTickets } from './data/imgData';
 import React,{useEffect,useState} from 'react';
 import Login from './login/login'
-import DashBoard from './component/dashboard/DashBoard'
+import Dashboard from './component/dashboard/DashBoard'
+
 
 
 function App() {
@@ -43,7 +44,7 @@ const user=JSON.parse(localStorage.getItem("name"));
         <Route path="/genre"  exact element={<Genre/>} ></Route>
         <Route path="/login"  exact element={<Login/>} ></Route>
         {/* <Route path="/dashboard"  exact element={user?<DashBoard/>:<Login/>} ></Route> */}
-            <Route path="/dashboard"  exact element={<DashBoard/>} ></Route>
+            <Route path="/dashboard"  exact element={<Dashboard/>} ></Route>
         
     </Routes>
   

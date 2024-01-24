@@ -1,9 +1,7 @@
 import { Box } from '@mui/material'
 import React from 'react'
 import SliderNav from './SliderNav'
-import Typography from '@mui/material/Typography';
 import Navbar from './Navbar';
-import ProductList from './product/ProductList';
 import ProductList2 from './product/ProductList2';
 
 function Dashboard() {
