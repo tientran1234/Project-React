@@ -11,7 +11,6 @@ import useFilm from './hook/useFilm'
 import { getTickets } from './data/imgData';
 import React,{useEffect,useState} from 'react';
 import Login from './login/login'
-import Dashboard from './component/dashboard/DashBoard'
 
 
 
