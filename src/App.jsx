@@ -44,7 +44,7 @@ const user=JSON.parse(localStorage.getItem("name"));
         <Route path="/genre"  exact element={<Genre/>} ></Route>
         <Route path="/login"  exact element={<Login/>} ></Route>
         {/* <Route path="/dashboard"  exact element={user?<DashBoard/>:<Login/>} ></Route> */}
-            <Route path="/dashboard"  exact element={<Dashboard/>} ></Route>
+       
         
     </Routes>
   
